@@ -1,0 +1,9 @@
+What happens between typing a URL and seeing the page?
+1. Cache: The browser checks for saved website files. This helps load the website faster.
+2. DNS: DNS converts the domain name into an IP address. This helps the browser find the correct server.
+3. Connection: The browser connects to the server. HTTPS uses TLS to encrypt communication.
+4. HTTP Request: The browser sends a request for the webpage. For example, `GET /index.html`.
+5. Server Response: The server sends the requested files back. `200 OK` means the request was successful.
+6. DOM & CSSOM: The browser reads HTML to create the DOM and CSS to create the CSSOM. These represent the webpage structure and styles.
+7. Rendering: The browser calculates element positions and draws the webpage on the screen.
+8. JavaScript: JavaScript makes the webpage interactive. For example, it can open menus and respond to button clicks.
