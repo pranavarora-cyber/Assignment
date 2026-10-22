@@ -1,0 +1,7 @@
+In this assignment, I learned about basic terminal commands used to manage files and folders. Commands like pwd and ls help us check our current location and view files, while mkdir and cd help us create folders and move between them.
+
+I also learned how to create files using touch, copy files using cp, rename files using mv, and delete files using rm. The cat command displays file contents, and clear clears the terminal screen.
+
+For the practical exercise, I created a website folder containing index.html, a css folder with style.css, and an images folder. I also practised navigating folders, listing files, renaming files, and opening the project in VS Code using code ..
+
+Finally, I created the same folder structure in my GitHub repository by adding files through the GitHub website. This helped me understand how to organize website files and manage a project online.
