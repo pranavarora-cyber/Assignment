@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Resume of Pranav Arora, BCA Artificial Intelligence student">
+    <title>Resume - Pranav Arora</title>
+</head>
+<body>
+    <header>
+        <h1>Pranav Arora</h1>
+        <p>BCA Artificial Intelligence Student</p>
+        <address>
+            <strong>College:</strong> Invertis University
+        </address>
+    </header>
+    <main>
+        <section id="objective">
+            <h2>Career Objective</h2>
+            <p>
+                To learn new technologies and develop my programming skills.
+                I aim to improve my knowledge of Artificial Intelligence
+                and software development.
+            </p>
+        </section>
+        <section id="education">
+            <h2>Education</h2>
+            <article>
+                <h3>Bachelor of Computer Applications (BCA)</h3>
+                <p>Specialization: Artificial Intelligence</p>
+                <p>Invertis University</p>
+            </article>
+        </section>
+        <section id="skills">
+            <h2>Technical Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Python</li>
+                <li>Artificial Intelligence</li>
+            </ul>
+        </section>
+        <section id="projects">
+            <h2>Projects and Interests</h2>
+            <article>
+                <h3>Web Development</h3>
+                <p>Learning to create web pages using HTML and CSS.</p>
+            </article>
+            <article>
+                <h3>Artificial Intelligence</h3>
+                <p>Interested in learning AI concepts and applications.</p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p><small>I declare that the information provided above is true to the best of my knowledge.</small></p>
+    </footer>
+</body>
+</html>
