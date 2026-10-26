@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Resume of Pranav Arora, BCA Artificial Intelligence student">
+    <title>Resume - Pranav Arora</title>
+</head>
+<body>
+    <h1>Pranav Arora</h1>
+    <h2>BCA Artificial Intelligence Student</h2>
+    <hr>
+    <h2>Career Objective</h2>
+    <p>
+        To learn new technologies and develop my programming skills.
+        I aim to improve my knowledge of Artificial Intelligence and
+        software development and build useful technology solutions.
+    </p>
+    <hr>
+    <h2>Educational Qualification</h2>
+    <h3>Bachelor of Computer Applications (BCA)</h3>
+    <p>
+        <strong>Specialization:</strong> Artificial Intelligence<br>
+        <strong>College:</strong> Invertis University
+    </p>
+    <hr>
+    <h2>Technical Skills</h2>
+    <p>
+        <strong>HTML:</strong> Basic web page structure<br>
+        <strong>CSS:</strong> Basic web styling<br>
+        <strong>Python:</strong> Programming fundamentals<br>
+        <strong>Artificial Intelligence:</strong> Basic concepts of AI
+    </p>
+    <hr>
+    <h2>Areas of Interest</h2>
+    <p>
+        <em>Artificial Intelligence, Web Development, and Programming</em>
+    </p>
+    <hr>
+    <h2>Strengths</h2>
+    <p>
+        <strong>Willingness to learn</strong><br>
+        Interest in new technologies<br>
+        Continuous improvement of technical skills
+    </p>
+    <hr>
+    <h2>Personal Profile</h2>
+    <p>
+        <strong>Name:</strong> Pranav Arora<br>
+        <strong>Course:</strong> BCA Artificial Intelligence<br>
+        <strong>University:</strong> Invertis University
+    </p>
+    <hr>
+    <h2>Declaration</h2>
+    <p>
+        I declare that the information provided above is true to the
+        best of my knowledge.
+    </p>
+    <p><small>Resume prepared as an HTML assignment.</small></p>
+</body>
+</html>
