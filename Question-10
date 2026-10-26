@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Personal introduction of Pranav Arora">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hi, I'm Pranav - Personal Introduction</title>
+</head>
+<body>
+    <header>
+        <h1>Hi, I'm Pranav Arora 👋</h1>
+        <p><em>BCA AI Student · Technology Enthusiast · Aspiring Developer</em></p>
+    </header>
+    <main>
+        <section>
+            <h2>About Me</h2>
+            <p>
+                I am a BCA Artificial Intelligence student at Invertis University.
+                I enjoy learning about technology, programming, and web development.
+                I am currently improving my skills in HTML, CSS, Python, and
+                Artificial Intelligence.
+            </p>
+        </section>
+        <section>
+            <h2>Quick Facts</h2>
+            <ul>
+                <li><strong>Course:</strong> BCA Artificial Intelligence</li>
+                <li><strong>University:</strong> Invertis University</li>
+                <li><strong>Skills:</strong> HTML, CSS, Python, Artificial Intelligence</li>
+                <li><strong>Interests:</strong> Technology and Web Development</li>
+            </ul>
+        </section>
+        <section>
+            <h2>My Goals</h2>
+            <ol>
+                <li>Improve my HTML and CSS skills.</li>
+                <li>Learn JavaScript and build useful websites.</li>
+                <li>Develop my programming and Artificial Intelligence knowledge.</li>
+                <li>Work on practical projects to gain experience.</li>
+            </ol>
+        </section>
+        <section>
+            <h2>Contact</h2>
+            <p>Email: Not provided</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 Pranav Arora</p>
+    </footer>
+</body>
+</html>
