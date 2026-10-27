@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Portfolio with accessible images - Pranav Arora">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio with Accessible Images - Pranav Arora</title>
+</head>
+<body>
+    <header>
+        <h1>Pranav Arora - Portfolio</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Profile</h2>
+            <p>
+                I am a BCA Artificial Intelligence student at Invertis University.
+            </p>
+            <img src="https://picsum.photos/id/1005/300/300"
+                 width="150" height="150"
+                 alt="Profile placeholder image for Pranav Arora">
+        </section>
+        <section>
+            <h2>Projects</h2>
+            <figure>
+                <img src="https://picsum.photos/id/180/400/250"
+                     width="400" height="250"
+                     alt="Preview image representing my HTML resume website">
+                <figcaption>Resume Website</figcaption>
+            </figure>
+            <figure>
+                <img src="https://picsum.photos/id/119/400/250"
+                     width="400" height="250"
+                     alt="Preview image representing an HTML student registration form">
+                <figcaption>Student Registration Form</figcaption>
+            </figure>
+        </section>
+        <section>
+            <h2>Decorative Image</h2>
+            <!-- Empty alt text lets screen readers skip decorative images -->
+            <img src="https://picsum.photos/id/1015/600/80"
+                 width="600" height="80" alt="">
+        </section>
+        <section>
+            <h2>Linked Image</h2>
+            <a href="https://github.com/">
+                <img src="https://picsum.photos/id/60/120/120"
+                     width="60" height="60"
+                     alt="Visit GitHub">
+            </a>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 Pranav Arora</p>
+    </footer>
+</body>
+</html>
