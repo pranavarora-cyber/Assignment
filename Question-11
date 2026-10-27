@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Portfolio of Pranav Arora, BCA Artificial Intelligence student">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Pranav Arora</title>
+</head>
+<body id="top">
+    <header>
+        <h1>Pranav Arora - Portfolio</h1>
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                I am a BCA Artificial Intelligence student at Invertis University.
+                I enjoy learning new technologies and developing my programming
+                skills. I am interested in web development and Artificial Intelligence.
+            </p>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li>Personal Resume Website</li>
+                <li>Personal Introduction Webpage</li>
+                <li>College Club Website</li>
+            </ul>
+            <p>
+                <a href="https://github.com/" target="_blank"
+                   rel="noopener noreferrer">
+                    Visit GitHub
+                </a>
+            </p>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Python</li>
+                <li>Artificial Intelligence</li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: Not provided</p>
+        </section>
+    </main>
+    <footer>
+        <p><a href="#top">↑ Back to top</a></p>
+        <p>
+            Other pages:
+            <a href="10-personal-introduction.html">Personal Introduction</a> |
+            <a href="08-resume-semantic.html">Resume</a>
+        </p>
+        <p>&copy; 2026 Pranav Arora</p>
+    </footer>
+</body>
+</html>
