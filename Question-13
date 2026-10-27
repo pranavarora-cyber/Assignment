@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="My College and My Course - Pranav Arora">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My College &amp; My Course</title>
+</head>
+<body>
+    <header>
+        <h1>My College &amp; My Course</h1>
+        <p>Introduction by Pranav Arora</p>
+    </header>
+    <main>
+        <section>
+            <h2>College Details</h2>
+            <ul>
+                <li>Name: Invertis University</li>
+                <li>Course: BCA Artificial Intelligence</li>
+                <li>Student: Pranav Arora</li>
+                <li>Facilities:
+                    <ul>
+                        <li>Computer labs</li>
+                        <li>Library</li>
+                        <li>Classrooms</li>
+                        <li>Sports facilities</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+        <section>
+            <h2>Course: BCA Artificial Intelligence</h2>
+            <h3>Topics I Want to Learn</h3>
+            <ol>
+                <li>HTML and CSS</li>
+                <li>Python programming</li>
+                <li>Data Structures</li>
+                <li>Artificial Intelligence fundamentals</li>
+                <li>Machine Learning</li>
+            </ol>
+            <h3>Key Terms</h3>
+            <dl>
+                <dt>HTML</dt>
+                <dd>A markup language used to structure web pages.</dd>
+                <dt>Python</dt>
+                <dd>A programming language used in software development and AI.</dd>
+                <dt>Artificial Intelligence</dt>
+                <dd>A field of computing focused on building systems that perform tasks requiring human-like intelligence.</dd>
+                <dt>Internship</dt>
+                <dd>Practical work experience that helps students develop professional skills.</dd>
+            </dl>
+        </section>
+        <section>
+            <h2>Why I Chose This Course</h2>
+            <ol type="a">
+                <li>To learn new technologies.</li>
+                <li>To develop my programming skills.</li>
+                <li>To explore Artificial Intelligence.</li>
+                <li>To build useful projects and prepare for my career.</li>
+            </ol>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 Pranav Arora</p>
+    </footer>
+</body>
+</html>
