@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Semantic college page - Pranav Arora, Invertis University">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invertis University - BCA Artificial Intelligence</title>
+</head>
+<body>
+    <header>
+        <h1>Invertis University</h1>
+        <p>Pranav Arora - BCA Artificial Intelligence</p>
+        <nav aria-label="Page sections">
+            <a href="#college">College</a> |
+            <a href="#course">Course</a> |
+            <a href="#news">News</a>
+        </nav>
+    </header>
+    <main>
+        <article id="college">
+            <h2>About the College</h2>
+            <p>
+                I study at <strong>Invertis University</strong>, where I am pursuing
+                a Bachelor of Computer Applications in Artificial Intelligence.
+                I am developing my knowledge of programming and modern technologies.
+            </p>
+            <figure>
+                <img src="https://picsum.photos/id/1067/500/260"
+                     width="500" height="260"
+                     alt="Illustrative image representing a college campus">
+                <figcaption>Illustrative campus image</figcaption>
+            </figure>
+        </article>
+        <article id="course">
+            <h2>BCA Artificial Intelligence</h2>
+            <section>
+                <h3>Course Overview</h3>
+                <p>
+                    This course helps me learn computer applications,
+                    programming, and Artificial Intelligence concepts.
+                </p>
+            </section>
+            <section>
+                <h3>Subjects and Skills</h3>
+                <ul>
+                    <li>HTML and CSS</li>
+                    <li>Python Programming</li>
+                    <li>Computer Fundamentals</li>
+                    <li>Artificial Intelligence</li>
+                    <li>Web Development</li>
+                </ul>
+            </section>
+        </article>
+        <aside id="news">
+            <h2>My Learning Goals</h2>
+            <p>
+                I aim to learn new technologies, improve my programming skills,
+                and develop useful projects.
+            </p>
+        </aside>
+    </main>
+    <footer>
+        <p>&copy; 2026 Pranav Arora</p>
+    </footer>
+</body>
+</html>
