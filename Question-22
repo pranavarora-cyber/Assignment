@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Demonstration of different CSS selector types.">
+    <meta name="author" content="Pranav Arora">
+    <title>CSS Selector Types - Pranav Arora</title>
+    <style>
+        /* 1. Universal Selector */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        /* 2. Element Selector */
+        body {
+            font-family: Arial, sans-serif;
+            background: #eef2f7;
+            color: #222;
+            padding: 2rem;
+            line-height: 1.6;
+        }
+        h1 {
+            margin-bottom: 1rem;
+            color: #1d3557;
+        }
+        p {
+            margin-bottom: .75rem;
+        }
+        /* 3. Class Selector */
+        .card {
+            background: #fff;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            border-radius: 8px;
+            box-shadow: 0 1px 4px rgba(0, 0, 0, .15);
+        }
+        .highlight {
+            background: #ffe066;
+            padding: 0 .25rem;
+        }
+        /* 4. ID Selector */
+        #special {
+            border-left: 6px solid #e63946;
+        }
+        /* 5. Grouping Selector */
+        h2, h3 {
+            color: #457b9d;
+            margin-bottom: .5rem;
+        }
+        /* 6. Descendant Selector */
+        .card a {
+            color: #e63946;
+        }
+        /* 7. Child Selector */
+        ul > li {
+            margin-left: 1.5rem;
+        }
+        /* 8. Adjacent Sibling Selector */
+        h2 + p {
+            font-weight: bold;
+        }
+        /* 9. Attribute Selector */
+        a[target="_blank"]::after {
+            content: " ↗";
+        }
+        input[type="text"] {
+            padding: .4rem;
+            border: 1px solid #999;
+            border-radius: 4px;
+        }
+        /* 10. Pseudo-classes */
+        a:hover {
+            text-decoration: none;
+            background: #ffe066;
+        }
+        input:focus {
+            outline: 3px solid #a8dadc;
+        }
+        li:nth-child(odd) {
+            color: #1d3557;
+        }
+        /* 11. Pseudo-element */
+        p::first-line {
+            letter-spacing: .5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS Selector Playground</h1>
+    <p>Created by Pranav Arora | BCA Artificial Intelligence</p>
+    <p>Invertis University</p>
+    <div class="card">
+        <h2>Class and Element Selectors</h2>
+        <p>
+            This paragraph demonstrates the
+            <span class="highlight">highlight class selector</span>.
+        </p>
+        <p>This is a normal paragraph styled by the element selector.</p>
+    </div>
+    <div class="card" id="special">
+        <h3>ID Selector</h3>
+        <p>
+            This card uses a unique ID selector
+            to create a red left border.
+        </p>
+    </div>
+    <div class="card">
+        <h3>Descendant, Child and Pseudo-class Selectors</h3>
+        <ul>
+            <li>Odd item using nth-child</li>
+            <li>Even item</li>
+            <li>
+                Odd item with
+                <a href="https://developer.mozilla.org/"
+                   target="_blank" rel="noopener noreferrer">
+                    MDN Website
+                </a>
+            </li>
+        </ul>
+        <p>
+            <input type="text" placeholder="Click here to test focus">
+        </p>
+    </div>
+    <footer>
+        <p>&copy; 2026 Pranav Arora | Invertis University</p>
+    </footer>
+</body>
+</html>
