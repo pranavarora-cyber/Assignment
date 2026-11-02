@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal multi-section website with Home, About, Registration and Contact pages.">
+    <meta name="author" content="Pranav Arora">
+    <title>Multi-Page Project - Pranav Arora</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 760px;
+            margin: 0 auto;
+            padding: 1rem;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #1f3a93;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 5px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .page {
+            display: none;
+            padding: 15px 0;
+        }
+        .page:target,
+        body:not(:has(.page:target)) #home {
+            display: block;
+        }
+        table {
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 8px;
+            border: 1px solid #999;
+        }
+        footer {
+            margin-top: 25px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Pranav's Website</h1>
+        <nav aria-label="Main Navigation">
+            <a href="#home">Home</a> |
+            <a href="#about">About</a> |
+            <a href="#registration">Registration</a> |
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <!-- Home Section -->
+        <section id="home" class="page">
+            <h2>Home</h2>
+            <p>
+                Welcome to my personal website!
+                I am Pranav Arora, a BCA Artificial Intelligence
+                student at Invertis University.
+            </p>
+            <img src="https://picsum.photos/id/1018/600/260"
+                width="600" height="260"
+                style="max-width:100%;height:auto"
+                alt="Illustrative mountain landscape">
+            <h3>What You Can Do Here</h3>
+            <ul>
+                <li>Learn <a href="#about">about me</a>.</li>
+                <li>Visit the <a href="#registration">workshop registration</a> section.</li>
+                <li>Send a message through the <a href="#contact">contact section</a>.</li>
+            </ul>
+        </section
+        <!-- About Section -->
+        <section id="about" class="page">
+            <h2>About Me</h2>
+            <p>
+                My name is Pranav Arora.
+                I am studying BCA Artificial Intelligence
+                at Invertis University.
+                I am interested in programming and web development.
+            </p>
+            <h3>My Skills</h3>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Python</li>
+                <li>Artificial Intelligence</li>
+            </ul>
+            <table>
+                <caption>My Quick Facts</caption>
+                <tr>
+                    <th scope="row">Name</th>
+                    <td>Pranav Arora</td>
+                </tr>
+                <tr>
+                    <th scope="row">College</th>
+                    <td>Invertis University</td>
+                </tr>
+                <tr>
+                    <th scope="row">Course</th>
+                    <td>BCA Artificial Intelligence</td>
+                </tr>
+                <tr>
+                    <th scope="row">Interests</th>
+                    <td>Programming, Web Development, AI</td>
+                </tr>
+            </table>
+        </section>
+        <!-- Registration Section -->
+        <section id="registration" class="page">
+            <h2>Workshop Registration</h2>
+            <p>Register for a basic web development workshop.</p>
+            <form action="#" method="post">
+                <p>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </p>
+                <p>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </p>
+                <p>
+                    <label for="dob">Date of Birth:</label>
+                    <input type="date" id="dob" name="dob">
+                </p>
+                <p>
+                    <label for="level">Experience Level:</label>
+                    <select id="level" name="level">
+                        <option>Beginner</option>
+                        <option>Intermediate</option>
+                        <option>Advanced</option>
+                    </select>
+                </p>
+                <button type="submit">Register</button>
+            </form>
+        </section>
+        <!-- Contact Section -->
+        <section id="contact" class="page">
+            <h2>Contact Me</h2>
+            <p>You can use this sample form to write a message.</p>
+            <form action="#" method="post">
+                <p>
+                    <label for="contact-name">Your Name:</label>
+                    <input type="text" id="contact-name" name="name" required>
+                </p>
+                <p>
+                    <label for="message">Your Message:</label><br>
+                    <textarea id="message" name="message"
+                        rows="5" cols="40" required></textarea>
+                </p>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <hr>
+        <p>
+            <small>
+                &copy; 2026 Pranav Arora |
+                Invertis University |
+                <a href="#home">Back to Home</a>
+            </small>
+        </p>
+    </footer>
+</body>
+</html>
