@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pranav Arora's lightly styled HTML resume.">
+    <meta name="author" content="Pranav Arora">
+    <title>Pranav Arora - Styled Resume</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f7f7f7;
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 1.5rem;
+        }
+        header {
+            border-bottom: 3px solid #2a5db0;
+            margin-bottom: 1rem;
+            padding-bottom: 1rem;
+        }
+        h1 {
+            color: #2a5db0;
+            margin-bottom: 0;
+        }
+        h2 {
+            color: #2a5db0;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: .25rem;
+        }
+        a {
+            color: #2a5db0;
+        }
+        section {
+            background: #fff;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            border-radius: 6px;
+        }
+        li {
+            margin-bottom: .25rem;
+        }
+        footer {
+            text-align: center;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Pranav Arora</h1>
+        <p>BCA Artificial Intelligence Student</p>
+        <p>Invertis University</p>
+    </header>
+    <main>
+        <section>
+            <h2>Career Objective</h2>
+            <p>
+                To learn new technologies and develop my programming skills.
+                I am interested in web development and artificial intelligence.
+            </p>
+        </section>
+        <section>
+            <h2>Education</h2>
+            <article>
+                <h3>Bachelor of Computer Applications</h3>
+                <p>BCA Artificial Intelligence</p>
+                <p>Invertis University</p>
+            </article>
+        </section>
+        <section>
+            <h2>Technical Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Python</li>
+                <li>Artificial Intelligence</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Areas of Interest</h2>
+            <ul>
+                <li>Web Development</li>
+                <li>Programming</li>
+                <li>Artificial Intelligence</li>
+                <li>Learning New Technologies</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p><small>&copy; 2026 Pranav Arora</small></p>
+    </footer>
+</body>
+</html
