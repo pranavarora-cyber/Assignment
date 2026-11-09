@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Responsive website audit and fixes by Pranav Arora.">
+  <title>Pranav's Responsive Audit & Fixes</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+    }
+    body {
+      font-family: system-ui, sans-serif;
+      line-height: 1.6;
+      padding: 1rem;
+      background: #f4f6fb;
+    }
+    .container {
+      width: 100%;
+      max-width: 960px;
+      margin: 0 auto;
+    }
+    h1 {
+      font-size: clamp(1.6rem, 5vw, 2.8rem);
+      margin-bottom: 1rem;
+    }
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-bottom: 1rem;
+    }
+    nav a {
+      padding: 0.75rem 1rem;
+      background: #1f3a93;
+      color: #fff;
+      border-radius: 6px;
+      text-decoration: none;
+      min-height: 44px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 1rem;
+    }
+    .card {
+      background: #fff;
+      padding: 1rem;
+      border-radius: 10px;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 8px;
+    }
+    .card h2 {
+      margin-top: 0.75rem;
+    }
+    .table-wrap {
+      overflow-x: auto;
+      margin-top: 1.5rem;
+      background: #fff;
+    }
+    table {
+      border-collapse: collapse;
+      min-width: 600px;
+      width: 100%;
+    }
+    th,
+    td {
+      border: 1px solid #ddd;
+      padding: 0.6rem;
+      text-align: left;
+    }
+    th {
+      background: #1f3a93;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Pranav's Responsive Audit – Fixed</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#services">Services</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#blog">Blog</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="grid">
+      <div class="card" id="home">
+        <img src="https://picsum.photos/id/1011/800/500"
+          alt="Boat on a quiet lake">
+        <h2>Card One</h2>
+        <p>Responsive images that fit inside their containers.</p>
+      </div>
+      <div class="card" id="services">
+        <img src="https://picsum.photos/id/1015/800/500"
+          alt="Valley with a river">
+        <h2>Card Two</h2>
+        <p>Flexible layouts that adjust to different screen sizes.</p>
+      </div>
+      <div class="card" id="blog">
+        <img src="https://picsum.photos/id/1016/800/500"
+          alt="Rocky canyon at dusk">
+        <h2>Card Three</h2>
+        <p>Cards automatically rearrange on smaller screens.</p>
+      </div>
+    </div>
+    <div class="table-wrap" id="pricing">
+      <table>
+        <tr>
+          <th>Plan</th>
+          <th>Storage</th>
+          <th>Users</th>
+          <th>Support</th>
+          <th>Price</th>
+        </tr>
+        <tr>
+          <td>Basic</td>
+          <td>10 GB</td>
+          <td>1</td>
+          <td>Email</td>
+          <td>₹0</td>
+        </tr>
+        <tr>
+          <td>Pro</td>
+          <td>100 GB</td>
+          <td>5</td>
+          <td>Chat</td>
+          <td>₹499</td>
+        </tr>
+      </table>
+    </div>
+    <h2 id="contact" style="margin-top: 1.5rem;">Responsive Design</h2>
+    <p>This project demonstrates eight common responsive design fixes.</p>
+  </div>
+</body>
+</html>
