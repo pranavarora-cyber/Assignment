@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Flexbox landing page for Pranav Arora, a BCA Artificial Intelligence student.">
+  <title>Pranav AI – Flexbox Landing Page</title>
+  <style>
+    :root {
+      --blue: #0077b6;
+      --light: #caf0f8;
+      --dark: #023047;
+      --accent: #ff9f1c;
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: system-ui, sans-serif;
+      color: #222;
+      line-height: 1.6;
+    }
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 0 1.5rem;
+    }
+    /* Navigation */
+    nav .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-block: 1rem;
+    }
+    .logo {
+      font-weight: 800;
+      font-size: 1.4rem;
+      color: var(--blue);
+    }
+    nav ul {
+      display: flex;
+      gap: 1.5rem;
+      list-style: none;
+    }
+    nav ul a:hover {
+      color: var(--blue);
+    }
+    /* Hero */
+    .hero {
+      background: var(--light);
+    }
+    .hero .container {
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+      padding-block: 4rem;
+    }
+    .hero__text,
+    .hero__img {
+      flex: 1;
+    }
+    .hero h1 {
+      font-size: clamp(2rem, 5vw, 3.3rem);
+      color: var(--dark);
+      line-height: 1.15;
+      margin-bottom: 1rem;
+    }
+    .hero p {
+      margin-bottom: 1.5rem;
+      max-width: 55ch;
+    }
+    .btn {
+      display: inline-block;
+      background: var(--accent);
+      padding: 0.8rem 1.8rem;
+      border-radius: 999px;
+      font-weight: 700;
+    }
+    .btn:hover {
+      transform: translateY(-2px);
+    }
+    .hero__img img {
+      width: 100%;
+      border-radius: 20px;
+      display: block;
+    }
+    /* Skills / Features */
+    .features {
+      padding-block: 4rem;
+      text-align: center;
+    }
+    .features h2 {
+      margin-bottom: 2rem;
+      color: var(--dark);
+    }
+    .features__list {
+      display: flex;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+    }
+    .feature {
+      flex: 1 1 260px;
+      background: #fff;
+      border: 1px solid #e3e3e3;
+      border-radius: 14px;
+      padding: 1.75rem;
+    }
+    .feature span {
+      font-size: 2.5rem;
+    }
+    .feature h3 {
+      margin: 0.5rem 0;
+    }
+    /* About section */
+    .testimonial {
+      background: var(--dark);
+      color: #fff;
+      padding-block: 3rem;
+    }
+    .testimonial .container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      justify-content: center;
+    }
+    .quote {
+      flex: 1 1 300px;
+      max-width: 450px;
+    }
+    .quote cite {
+      display: block;
+      margin-top: 0.5rem;
+      color: var(--accent);
+      font-style: normal;
+    }
+    /* Footer */
+    footer .container {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 1rem;
+      padding-block: 1.5rem;
+      color: #666;
+    }
+    /* Responsive */
+    @media (max-width: 768px) {
+      nav ul {
+        display: none;
+      }
+      .hero .container {
+        flex-direction: column;
+        text-align: center;
+        padding-block: 2.5rem;
+      }
+      .hero p {
+        margin-inline: auto;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav>
+    <div class="container">
+      <span class="logo">Pranav AI</span>
+      <ul>
+        <li><a href="#features">Skills</a></li>
+        <li><a href="#stories">About</a></li>
+        <li><a href="#">Projects</a></li>
+      </ul>
+    </div>
+  </nav>
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="container">
+      <div class="hero__text">
+        <h1>
+          Learn. Build. Create with AI.
+        </h1>
+        <p>
+          I am Pranav Arora, a BCA Artificial Intelligence student
+          at Invertis University. I am learning new technologies
+          and developing my programming skills.
+        </p>
+        <a class="btn" href="#features">
+          Explore My Skills
+        </a>
+      </div>
+      <div class="hero__img">
+        <img
+          src="https://picsum.photos/id/180/700/500"
+          alt="Laptop showing a technology workspace">
+      </div>
+    </div>
+  </header>
+  <!-- Skills Section -->
+  <section class="features" id="features">
+    <div class="container">
+      <h2>My Skills</h2>
+      <div class="features__list">
+        <div class="feature">
+          <span>🌐</span>
+          <h3>HTML & CSS</h3>
+          <p>
+            Creating structured and responsive web pages
+            using HTML and CSS.
+          </p>
+        </div>
+        <div class="feature">
+          <span>🐍</span>
+          <h3>Python</h3>
+          <p>
+            Learning Python programming for problem solving
+            and application development.
+          </p>
+        </div>
+        <div class="feature">
+          <span>🤖</span>
+          <h3>Artificial Intelligence</h3>
+          <p>
+            Exploring AI concepts, machine learning and
+            intelligent applications.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- About Section -->
+  <section class="testimonial" id="stories">
+    <div class="container">
+      <blockquote class="quote">
+        “To learn new technologies and develop my
+        programming skills.”
+        <cite>— Pranav Arora</cite>
+      </blockquote>
+      <blockquote class="quote">
+        “BCA Artificial Intelligence student at
+        Invertis University, focused on learning
+        programming and AI.”
+        <cite>— Pranav AI</cite>
+      </blockquote>
+    </div>
+  </section>
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <span>&copy; 2026 Pranav AI</span>
+      <span>Portfolio · Projects · Contact</span>
+    </div>
+  </footer>
+</body>
+</html>
